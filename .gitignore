@@ -1,0 +1,9 @@
+.bundle
+db/*.sqlite3
+log/*
+tmp/
+.project
+config/database.yml
+db/schema.rb
+nbproject/
+
