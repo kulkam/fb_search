@@ -4,7 +4,6 @@ log/*
 tmp/
 .project
 config/database.yml
-config/workers.yml
 db/schema.rb
 nbproject/
 
