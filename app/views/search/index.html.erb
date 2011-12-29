@@ -1,2 +1,44 @@
-Search result:
-<% @search %>
+Search...
+<%= link_to "Search", :controller => "home" %>
+
+<%= form_tag("/search", :method => "get") do %>
+  <%= label_tag(:q, "Search for:") %>
+  <%= text_field_tag(:q) %>
+  <%= submit_tag("Search") %>
+<% end %>
+
+<b>Koala</b>
+<table>
+<% @search_res.each do |result| %>
+  <tr>
+    <td><img src="<%= result['picture'] %>"/></td>
+    <td><%= result['from']['name'] %><br/>
+        <%= result['created_time'] %></td>
+    <td><%= result['message'] %></td>
+  </tr>
+<% end %>
+</table>
+<hr/>
+<b>fb_graph</b>
+<table>
+<% @search_res2.each do |result2| %>
+  <tr>
+    <td><img src="<%= result2['picture'] %>"/></td>
+    <td><%= result2['from']['name'] %><br/>
+        <%= result2['created_time'] %></td>
+    <td><%= result2['message'] %></td>
+  </tr>
+<% end %>
+</table>
+<hr/>
+<b>fbgraph</b>
+<table>
+<% @search_res3["data"].each do |result3| %>
+  <tr>
+    <td><img src="<%= result3['picture'] %>"/></td>
+    <td><%= result3['from']['name'] %><br/>
+        <%= result3['created_time'] %></td>
+    <td><%= result3['message'] %></td>
+  </tr>
+<% end %>
+</table>
