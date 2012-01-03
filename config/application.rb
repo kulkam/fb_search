@@ -9,8 +9,13 @@ if defined?(Bundler)
   # Bundler.require(:default, :assets, Rails.env)
 end
 
+require File.join(File.dirname(__FILE__), '../lib/configurable')
+
 module FbSearch
   class Application < Rails::Application
+    
+    require File.join(File.dirname(__FILE__), 'app')  
+    require File.join(File.dirname(__FILE__), 'app/', Rails.env)
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
