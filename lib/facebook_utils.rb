@@ -1,6 +1,6 @@
 class FacebookUtils
   
-  #class << self
+  class << self
     
     def oauth
       @@oauth ||= Koala::Facebook::OAuth.new(AppConfig.fb_app_id, AppConfig.fb_app_secret, "#{AppConfig.url}/main/authorized")
@@ -21,13 +21,17 @@ class FacebookUtils
     def user_id(token)
       Koala::Facebook::GraphAPI.new(token).get_object("me")["id"]
     end
-
+    
+    def user_like_page(token, page_id) 
+      Koala::Facebook::GraphAPI.new(token).get_connections("me", "likes/#{page_id}")
+    end  
+    
     def login_url(back_url)
       oauth.url_for_oauth_code(
           :permissions => '',
           :callback => back_url
       )
     end
- #end
+ end
   
 end
