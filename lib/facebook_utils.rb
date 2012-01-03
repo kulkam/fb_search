@@ -3,7 +3,7 @@ class FacebookUtils
   class << self
     
     def oauth
-      @@oauth ||= Koala::Facebook::OAuth.new(AppConfig.fb_app_id, AppConfig.fb_app_secret, "#{AppConfig.url}/main/authorized")
+      @@oauth ||= Koala::Facebook::OAuth.new(AppConfig.fb_app_id, AppConfig.fb_app_secret, "#{AppConfig.url}/like")
     end
     
     def token_from_signed_request(signed_request)
