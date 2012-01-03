@@ -1,6 +1,7 @@
 FbSearch::Application.routes.draw do
   
   resources :search
+  resources :like
 
   get "main/index"
   
