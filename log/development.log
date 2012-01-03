@@ -3632,3 +3632,389 @@ Served asset /search.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-02 22:13:57 +0100
 Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/like" for 127.0.0.1 at 2012-01-03 13:09:23 +0100
+  Processing by LikeController#create as HTML
+  Parameters: {"signed_request"=>"BLlpBd7oBRGEc3TgGi39mAT0MRL7Aakv_er5S4hV36U.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImV4cGlyZXMiOjAsImlzc3VlZF9hdCI6MTMyNTU5MjU2Mywib2F1dGhfdG9rZW4iOiJBQUFDek1DeFcyM3dCQUhQcnF6eVlCbFpBYUluUW5HWHU5VlZ1RW84RGlyWGR3RUlWVWpsWkN1bEJjVUdQTjMxcHNJWkFWZE5wOXRkS2x5cWY0cjhZckR5TlZXRHFVS0s4Z25HWWMwMzBBWkRaRCIsInBhZ2UiOnsiaWQiOiIxOTAyNTk0MDc3MzcyMDgiLCJsaWtlZCI6dHJ1ZSwiYWRtaW4iOnRydWV9LCJ1c2VyIjp7ImNvdW50cnkiOiJwbCIsImxvY2FsZSI6ImVuX1VTIiwiYWdlIjp7Im1pbiI6MjF9fSwidXNlcl9pZCI6IjEwMDAwMjM2NDEyNTgzMyJ9"}
+WARNING: Can't verify CSRF token authenticity
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+true
+Completed 500 Internal Server Error in 16ms
+
+NameError (uninitialized constant LikeController::AppConfig):
+  app/controllers/like_controller.rb:40:in `create'
+
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.0ms)
+
+
+Started POST "/like" for 127.0.0.1 at 2012-01-03 13:12:54 +0100
+  Processing by LikeController#create as HTML
+  Parameters: {"signed_request"=>"3DUsmPzxQGrnnKgK-3LCNzivhxxdNjqDENk7RJQ-_LI.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImV4cGlyZXMiOjAsImlzc3VlZF9hdCI6MTMyNTU5Mjc3Miwib2F1dGhfdG9rZW4iOiJBQUFDek1DeFcyM3dCQUhQcnF6eVlCbFpBYUluUW5HWHU5VlZ1RW84RGlyWGR3RUlWVWpsWkN1bEJjVUdQTjMxcHNJWkFWZE5wOXRkS2x5cWY0cjhZckR5TlZXRHFVS0s4Z25HWWMwMzBBWkRaRCIsInBhZ2UiOnsiaWQiOiIxOTAyNTk0MDc3MzcyMDgiLCJsaWtlZCI6dHJ1ZSwiYWRtaW4iOnRydWV9LCJ1c2VyIjp7ImNvdW50cnkiOiJwbCIsImxvY2FsZSI6ImVuX1VTIiwiYWdlIjp7Im1pbiI6MjF9fSwidXNlcl9pZCI6IjEwMDAwMjM2NDEyNTgzMyJ9"}
+WARNING: Can't verify CSRF token authenticity
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+true
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant LikeController::AppConfig):
+  app/controllers/like_controller.rb:40:in `create'
+
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.7ms)
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.8ms)
+
+
+Started POST "/like" for 127.0.0.1 at 2012-01-03 13:14:30 +0100
+  Processing by LikeController#create as HTML
+  Parameters: {"signed_request"=>"G4oaUn6VcKMKLwnXZGtYsdLHuO_fnl6TGDj9DcsX144.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImV4cGlyZXMiOjAsImlzc3VlZF9hdCI6MTMyNTU5Mjg2OCwib2F1dGhfdG9rZW4iOiJBQUFDek1DeFcyM3dCQUhQcnF6eVlCbFpBYUluUW5HWHU5VlZ1RW84RGlyWGR3RUlWVWpsWkN1bEJjVUdQTjMxcHNJWkFWZE5wOXRkS2x5cWY0cjhZckR5TlZXRHFVS0s4Z25HWWMwMzBBWkRaRCIsInBhZ2UiOnsiaWQiOiIxOTAyNTk0MDc3MzcyMDgiLCJsaWtlZCI6dHJ1ZSwiYWRtaW4iOnRydWV9LCJ1c2VyIjp7ImNvdW50cnkiOiJwbCIsImxvY2FsZSI6ImVuX1VTIiwiYWdlIjp7Im1pbiI6MjF9fSwidXNlcl9pZCI6IjEwMDAwMjM2NDEyNTgzMyJ9"}
+WARNING: Can't verify CSRF token authenticity
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+true
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant LikeController::AppConfig):
+  app/controllers/like_controller.rb:40:in `create'
+
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.4ms)
+
+
+Started POST "/like" for 127.0.0.1 at 2012-01-03 14:15:39 +0100
+  Processing by LikeController#create as HTML
+  Parameters: {"signed_request"=>"Xs_a587OMTZVpGzmdO4QIl93uhrVZ3DJb1EA7x3DsnM.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImV4cGlyZXMiOjAsImlzc3VlZF9hdCI6MTMyNTU5NjUzNywib2F1dGhfdG9rZW4iOiJBQUFDek1DeFcyM3dCQUhQcnF6eVlCbFpBYUluUW5HWHU5VlZ1RW84RGlyWGR3RUlWVWpsWkN1bEJjVUdQTjMxcHNJWkFWZE5wOXRkS2x5cWY0cjhZckR5TlZXRHFVS0s4Z25HWWMwMzBBWkRaRCIsInBhZ2UiOnsiaWQiOiIxOTAyNTk0MDc3MzcyMDgiLCJsaWtlZCI6dHJ1ZSwiYWRtaW4iOnRydWV9LCJ1c2VyIjp7ImNvdW50cnkiOiJwbCIsImxvY2FsZSI6ImVuX1VTIiwiYWdlIjp7Im1pbiI6MjF9fSwidXNlcl9pZCI6IjEwMDAwMjM2NDEyNTgzMyJ9"}
+WARNING: Can't verify CSRF token authenticity
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+true
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant LikeController::AppConfig):
+  app/controllers/like_controller.rb:40:in `create'
+
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (6.2ms)
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.1ms)
+
+
+Started POST "/like" for 127.0.0.1 at 2012-01-03 14:17:05 +0100
+  Processing by LikeController#create as HTML
+  Parameters: {"signed_request"=>"Ki5ArcW0nZQ_3YBe5RVLShA_Nx2dQFHnmmcXAypnbWo.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImV4cGlyZXMiOjAsImlzc3VlZF9hdCI6MTMyNTU5NjYyMiwib2F1dGhfdG9rZW4iOiJBQUFDek1DeFcyM3dCQUhQcnF6eVlCbFpBYUluUW5HWHU5VlZ1RW84RGlyWGR3RUlWVWpsWkN1bEJjVUdQTjMxcHNJWkFWZE5wOXRkS2x5cWY0cjhZckR5TlZXRHFVS0s4Z25HWWMwMzBBWkRaRCIsInBhZ2UiOnsiaWQiOiIxOTAyNTk0MDc3MzcyMDgiLCJsaWtlZCI6dHJ1ZSwiYWRtaW4iOnRydWV9LCJ1c2VyIjp7ImNvdW50cnkiOiJwbCIsImxvY2FsZSI6ImVuX1VTIiwiYWdlIjp7Im1pbiI6MjF9fSwidXNlcl9pZCI6IjEwMDAwMjM2NDEyNTgzMyJ9"}
+WARNING: Can't verify CSRF token authenticity
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+true
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant LikeController::AppConfig):
+  app/controllers/like_controller.rb:40:in `create'
+
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.2ms)
+
+
+Started POST "/like" for 127.0.0.1 at 2012-01-03 14:18:51 +0100
+  Processing by LikeController#create as HTML
+  Parameters: {"signed_request"=>"-jSelM7-YIl3Re7Ap70DLe2ETrm3ypKLy09z9ABBwz4.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImV4cGlyZXMiOjAsImlzc3VlZF9hdCI6MTMyNTU5NjcyOSwib2F1dGhfdG9rZW4iOiJBQUFDek1DeFcyM3dCQUhQcnF6eVlCbFpBYUluUW5HWHU5VlZ1RW84RGlyWGR3RUlWVWpsWkN1bEJjVUdQTjMxcHNJWkFWZE5wOXRkS2x5cWY0cjhZckR5TlZXRHFVS0s4Z25HWWMwMzBBWkRaRCIsInBhZ2UiOnsiaWQiOiIxOTAyNTk0MDc3MzcyMDgiLCJsaWtlZCI6dHJ1ZSwiYWRtaW4iOnRydWV9LCJ1c2VyIjp7ImNvdW50cnkiOiJwbCIsImxvY2FsZSI6ImVuX1VTIiwiYWdlIjp7Im1pbiI6MjF9fSwidXNlcl9pZCI6IjEwMDAwMjM2NDEyNTgzMyJ9"}
+WARNING: Can't verify CSRF token authenticity
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+true
+Completed 500 Internal Server Error in 2ms
+
+NameError (uninitialized constant LikeController::AppConfig):
+  app/controllers/like_controller.rb:40:in `create'
+
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.3ms)
+
+
+Started POST "/like" for 127.0.0.1 at 2012-01-03 14:20:39 +0100
+  Processing by LikeController#create as HTML
+  Parameters: {"signed_request"=>"Rz_YXh6FF4HQq03fuKtQkHvszq4l0Ae4GbIZKwBCprM.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImV4cGlyZXMiOjAsImlzc3VlZF9hdCI6MTMyNTU5NjgzNiwib2F1dGhfdG9rZW4iOiJBQUFDek1DeFcyM3dCQUhQcnF6eVlCbFpBYUluUW5HWHU5VlZ1RW84RGlyWGR3RUlWVWpsWkN1bEJjVUdQTjMxcHNJWkFWZE5wOXRkS2x5cWY0cjhZckR5TlZXRHFVS0s4Z25HWWMwMzBBWkRaRCIsInBhZ2UiOnsiaWQiOiIxOTAyNTk0MDc3MzcyMDgiLCJsaWtlZCI6dHJ1ZSwiYWRtaW4iOnRydWV9LCJ1c2VyIjp7ImNvdW50cnkiOiJwbCIsImxvY2FsZSI6ImVuX1VTIiwiYWdlIjp7Im1pbiI6MjF9fSwidXNlcl9pZCI6IjEwMDAwMjM2NDEyNTgzMyJ9"}
+WARNING: Can't verify CSRF token authenticity
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+true
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant LikeController::AppConfig):
+  app/controllers/like_controller.rb:40:in `create'
+
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.9ms)
+
+
+Started POST "/like" for 127.0.0.1 at 2012-01-03 14:28:17 +0100
+  Processing by LikeController#create as HTML
+  Parameters: {"signed_request"=>"WN0N1vRCbdL6cRkw9gfiCXPvNGuNxAKM6OLpJqdcsjc.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImV4cGlyZXMiOjAsImlzc3VlZF9hdCI6MTMyNTU5NzI5NSwib2F1dGhfdG9rZW4iOiJBQUFDek1DeFcyM3dCQUhQcnF6eVlCbFpBYUluUW5HWHU5VlZ1RW84RGlyWGR3RUlWVWpsWkN1bEJjVUdQTjMxcHNJWkFWZE5wOXRkS2x5cWY0cjhZckR5TlZXRHFVS0s4Z25HWWMwMzBBWkRaRCIsInBhZ2UiOnsiaWQiOiIxOTAyNTk0MDc3MzcyMDgiLCJsaWtlZCI6dHJ1ZSwiYWRtaW4iOnRydWV9LCJ1c2VyIjp7ImNvdW50cnkiOiJwbCIsImxvY2FsZSI6ImVuX1VTIiwiYWdlIjp7Im1pbiI6MjF9fSwidXNlcl9pZCI6IjEwMDAwMjM2NDEyNTgzMyJ9"}
+WARNING: Can't verify CSRF token authenticity
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+true
+warning: undefined setting `url' for AppConfig:Class
+Completed 500 Internal Server Error in 7ms
+
+NoMethodError (undefined method `get_connections' for #<Koala::Facebook::OAuth:0x9d7ae5c>):
+  app/controllers/like_controller.rb:42:in `create'
+
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.4ms)
+
+
+Started POST "/like" for 127.0.0.1 at 2012-01-03 14:32:07 +0100
+  Processing by LikeController#create as HTML
+  Parameters: {"signed_request"=>"JmEZcfPX2HxhhBcMc_ctOaj9nX1g0SwmQFDkGL-zBDE.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImV4cGlyZXMiOjAsImlzc3VlZF9hdCI6MTMyNTU5NzUyNSwib2F1dGhfdG9rZW4iOiJBQUFDek1DeFcyM3dCQUhQcnF6eVlCbFpBYUluUW5HWHU5VlZ1RW84RGlyWGR3RUlWVWpsWkN1bEJjVUdQTjMxcHNJWkFWZE5wOXRkS2x5cWY0cjhZckR5TlZXRHFVS0s4Z25HWWMwMzBBWkRaRCIsInBhZ2UiOnsiaWQiOiIxOTAyNTk0MDc3MzcyMDgiLCJsaWtlZCI6dHJ1ZSwiYWRtaW4iOnRydWV9LCJ1c2VyIjp7ImNvdW50cnkiOiJwbCIsImxvY2FsZSI6ImVuX1VTIiwiYWdlIjp7Im1pbiI6MjF9fSwidXNlcl9pZCI6IjEwMDAwMjM2NDEyNTgzMyJ9"}
+WARNING: Can't verify CSRF token authenticity
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+true
+warning: undefined setting `url' for AppConfig:Class
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `get_connections' for #<Koala::Facebook::OAuth:0xa464a10>):
+  app/controllers/like_controller.rb:45:in `create'
+
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.1ms)
+
+
+Started POST "/like" for 127.0.0.1 at 2012-01-03 14:32:22 +0100
+  Processing by LikeController#create as HTML
+  Parameters: {"signed_request"=>"dZnPqXoP3zMCGVyXMmlbJRSYxYOZySOhVbgePOsCN3I.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImV4cGlyZXMiOjAsImlzc3VlZF9hdCI6MTMyNTU5NzUzNSwib2F1dGhfdG9rZW4iOiJBQUFDek1DeFcyM3dCQUhQcnF6eVlCbFpBYUluUW5HWHU5VlZ1RW84RGlyWGR3RUlWVWpsWkN1bEJjVUdQTjMxcHNJWkFWZE5wOXRkS2x5cWY0cjhZckR5TlZXRHFVS0s4Z25HWWMwMzBBWkRaRCIsInBhZ2UiOnsiaWQiOiIxOTAyNTk0MDc3MzcyMDgiLCJsaWtlZCI6dHJ1ZSwiYWRtaW4iOnRydWV9LCJ1c2VyIjp7ImNvdW50cnkiOiJwbCIsImxvY2FsZSI6ImVuX1VTIiwiYWdlIjp7Im1pbiI6MjF9fSwidXNlcl9pZCI6IjEwMDAwMjM2NDEyNTgzMyJ9"}
+WARNING: Can't verify CSRF token authenticity
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+true
+warning: undefined setting `url' for AppConfig:Class
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `get_connections' for #<Koala::Facebook::OAuth:0xae58e68>):
+  app/controllers/like_controller.rb:45:in `create'
+
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.7ms)
+
+
+Started POST "/like" for 127.0.0.1 at 2012-01-03 14:35:31 +0100
+  Processing by LikeController#create as HTML
+  Parameters: {"signed_request"=>"SfLCkfUfZJw7VRRSZe_oMezmLcY7mMbLHW6HTXPv-p8.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImV4cGlyZXMiOjAsImlzc3VlZF9hdCI6MTMyNTU5NzcyOSwib2F1dGhfdG9rZW4iOiJBQUFDek1DeFcyM3dCQUhQcnF6eVlCbFpBYUluUW5HWHU5VlZ1RW84RGlyWGR3RUlWVWpsWkN1bEJjVUdQTjMxcHNJWkFWZE5wOXRkS2x5cWY0cjhZckR5TlZXRHFVS0s4Z25HWWMwMzBBWkRaRCIsInBhZ2UiOnsiaWQiOiIxOTAyNTk0MDc3MzcyMDgiLCJsaWtlZCI6dHJ1ZSwiYWRtaW4iOnRydWV9LCJ1c2VyIjp7ImNvdW50cnkiOiJwbCIsImxvY2FsZSI6ImVuX1VTIiwiYWdlIjp7Im1pbiI6MjF9fSwidXNlcl9pZCI6IjEwMDAwMjM2NDEyNTgzMyJ9"}
+WARNING: Can't verify CSRF token authenticity
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+true
+warning: undefined setting `url' for AppConfig:Class
+Completed 500 Internal Server Error in 1ms
+
+ArgumentError (wrong number of arguments (2 for 1)):
+  lib/facebook_utils.rb:14:in `like_from_signed_request'
+  app/controllers/like_controller.rb:42:in `create'
+
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.6ms)
+
+
+Started POST "/like" for 127.0.0.1 at 2012-01-03 14:36:12 +0100
+  Processing by LikeController#create as HTML
+  Parameters: {"signed_request"=>"Qn9jGKezGJBBygtQrCPjRxBAVo_pE645ElM1eHQBx_k.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImV4cGlyZXMiOjAsImlzc3VlZF9hdCI6MTMyNTU5Nzc3MCwib2F1dGhfdG9rZW4iOiJBQUFDek1DeFcyM3dCQUhQcnF6eVlCbFpBYUluUW5HWHU5VlZ1RW84RGlyWGR3RUlWVWpsWkN1bEJjVUdQTjMxcHNJWkFWZE5wOXRkS2x5cWY0cjhZckR5TlZXRHFVS0s4Z25HWWMwMzBBWkRaRCIsInBhZ2UiOnsiaWQiOiIxOTAyNTk0MDc3MzcyMDgiLCJsaWtlZCI6dHJ1ZSwiYWRtaW4iOnRydWV9LCJ1c2VyIjp7ImNvdW50cnkiOiJwbCIsImxvY2FsZSI6ImVuX1VTIiwiYWdlIjp7Im1pbiI6MjF9fSwidXNlcl9pZCI6IjEwMDAwMjM2NDEyNTgzMyJ9"}
+WARNING: Can't verify CSRF token authenticity
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+true
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+true
+1
+Rendered like/create.html.erb within layouts/application (0.4ms)
+Cache for Asset (application.js) is stale
+/home/magda/.rvm/gems/ruby-1.9.3-rc1/gems/jquery-rails-1.0.19/vendor/assets/javascripts/jquery.js isn't in paths: /home/mszczerbowska/Dropbox/fb_search/app/assets/images, /home/mszczerbowska/Dropbox/fb_search/app/assets/javascripts, /home/mszczerbowska/Dropbox/fb_search/app/assets/stylesheets, /home/mszczerbowska/Dropbox/fb_search/vendor/assets/stylesheets, /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/jquery-rails-1.0.19/vendor/assets/javascripts
+Compiled application.js  (15ms)  (pid 7307)
+Compiled jquery.js  (66ms)  (pid 7307)
+Compiled jquery_ujs.js  (5ms)  (pid 7307)
+Completed 200 OK in 2288ms (Views: 261.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-03 14:36:14 +0100
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/like.css?body=1" for 127.0.0.1 at 2012-01-03 14:36:14 +0100
+Served asset /like.css - 200 OK (6ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-01-03 14:36:14 +0100
+Served asset /main.css - 200 OK (1ms)
+
+
+Started GET "/assets/like.js?body=1" for 127.0.0.1 at 2012-01-03 14:36:14 +0100
+Served asset /like.js - 200 OK (1ms)
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2012-01-03 14:36:14 +0100
+Served asset /search.css - 200 OK (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-03 14:36:14 +0100
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-03 14:36:14 +0100
+Served asset /jquery.js - 200 OK (2ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-01-03 14:36:14 +0100
+Served asset /main.js - 200 OK (1ms)
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2012-01-03 14:36:14 +0100
+Served asset /search.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-03 14:36:14 +0100
+Served asset /application.js - 200 OK (0ms)
+
+
+Started POST "/like" for 127.0.0.1 at 2012-01-03 14:41:27 +0100
+  Processing by LikeController#create as HTML
+  Parameters: {"signed_request"=>"yDCMwcKnsH16ixcLny1WkXEFAaEq5SAjTpGoppIQDxA.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImV4cGlyZXMiOjAsImlzc3VlZF9hdCI6MTMyNTU5ODA4NSwib2F1dGhfdG9rZW4iOiJBQUFDek1DeFcyM3dCQUhQcnF6eVlCbFpBYUluUW5HWHU5VlZ1RW84RGlyWGR3RUlWVWpsWkN1bEJjVUdQTjMxcHNJWkFWZE5wOXRkS2x5cWY0cjhZckR5TlZXRHFVS0s4Z25HWWMwMzBBWkRaRCIsInBhZ2UiOnsiaWQiOiIxOTAyNTk0MDc3MzcyMDgiLCJsaWtlZCI6dHJ1ZSwiYWRtaW4iOnRydWV9LCJ1c2VyIjp7ImNvdW50cnkiOiJwbCIsImxvY2FsZSI6ImVuX1VTIiwiYWdlIjp7Im1pbiI6MjF9fSwidXNlcl9pZCI6IjEwMDAwMjM2NDEyNTgzMyJ9"}
+WARNING: Can't verify CSRF token authenticity
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+true
+Completed 500 Internal Server Error in 3ms
+
+NoMethodError (undefined method `user_like_page' for FacebookUtils:Class):
+  app/controllers/like_controller.rb:24:in `create'
+
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.3ms)
+
+
+Started POST "/like" for 127.0.0.1 at 2012-01-03 14:42:19 +0100
+  Processing by LikeController#create as HTML
+  Parameters: {"signed_request"=>"UVVfIRGzH_ZS5RtZE8IHsOg8lHw-ZzsSBJQ-V8pdoVk.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImV4cGlyZXMiOjAsImlzc3VlZF9hdCI6MTMyNTU5ODEzMiwib2F1dGhfdG9rZW4iOiJBQUFDek1DeFcyM3dCQUhQcnF6eVlCbFpBYUluUW5HWHU5VlZ1RW84RGlyWGR3RUlWVWpsWkN1bEJjVUdQTjMxcHNJWkFWZE5wOXRkS2x5cWY0cjhZckR5TlZXRHFVS0s4Z25HWWMwMzBBWkRaRCIsInBhZ2UiOnsiaWQiOiIxOTAyNTk0MDc3MzcyMDgiLCJsaWtlZCI6dHJ1ZSwiYWRtaW4iOnRydWV9LCJ1c2VyIjp7ImNvdW50cnkiOiJwbCIsImxvY2FsZSI6ImVuX1VTIiwiYWdlIjp7Im1pbiI6MjF9fSwidXNlcl9pZCI6IjEwMDAwMjM2NDEyNTgzMyJ9"}
+WARNING: Can't verify CSRF token authenticity
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+true
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `user_like_page' for FacebookUtils:Class):
+  app/controllers/like_controller.rb:24:in `create'
+
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.6ms)
+
+
+Started POST "/like" for 127.0.0.1 at 2012-01-03 14:54:33 +0100
+  Processing by LikeController#create as HTML
+  Parameters: {"signed_request"=>"Znmx4F6gEwANLUta91fW1NM-S-w63xn0AZBeud-r-l8.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImV4cGlyZXMiOjAsImlzc3VlZF9hdCI6MTMyNTU5ODg3MCwib2F1dGhfdG9rZW4iOiJBQUFDek1DeFcyM3dCQUhQcnF6eVlCbFpBYUluUW5HWHU5VlZ1RW84RGlyWGR3RUlWVWpsWkN1bEJjVUdQTjMxcHNJWkFWZE5wOXRkS2x5cWY0cjhZckR5TlZXRHFVS0s4Z25HWWMwMzBBWkRaRCIsInBhZ2UiOnsiaWQiOiIxOTAyNTk0MDc3MzcyMDgiLCJsaWtlZCI6dHJ1ZSwiYWRtaW4iOnRydWV9LCJ1c2VyIjp7ImNvdW50cnkiOiJwbCIsImxvY2FsZSI6ImVuX1VTIiwiYWdlIjp7Im1pbiI6MjF9fSwidXNlcl9pZCI6IjEwMDAwMjM2NDEyNTgzMyJ9"}
+WARNING: Can't verify CSRF token authenticity
+warning: undefined setting `url' for AppConfig:Class
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+true
+[{"name"=>"PageA", "category"=>"Community", "id"=>"142723355839336", "created_time"=>"2012-01-02T20:27:04+0000"}]
+Rendered like/create.html.erb within layouts/application (57.1ms)
+Completed 500 Internal Server Error in 1256ms
+
+ActionView::Template::Error (undefined method `>' for #<Koala::Facebook::GraphCollection:0xab87144>):
+    1: <%=  @like_page ? "You like this page" : "You must like this page" %><br/>
+    2: <%=  (@like_page_a>0) ? "You like page A" : "You don't like page A" %>
+  app/views/like/create.html.erb:2:in `_app_views_like_create_html_erb___694158632_85016750'
+  app/controllers/like_controller.rb:28:in `create'
+
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.3ms)
+
+
+Started POST "/like" for 127.0.0.1 at 2012-01-03 14:55:18 +0100
+  Processing by LikeController#create as HTML
+  Parameters: {"signed_request"=>"qf1VRfiMAfJRaar5C1K3hrZ2N0dEkT_UXvraDZ2YCVM.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImV4cGlyZXMiOjAsImlzc3VlZF9hdCI6MTMyNTU5ODkxMywib2F1dGhfdG9rZW4iOiJBQUFDek1DeFcyM3dCQUhQcnF6eVlCbFpBYUluUW5HWHU5VlZ1RW84RGlyWGR3RUlWVWpsWkN1bEJjVUdQTjMxcHNJWkFWZE5wOXRkS2x5cWY0cjhZckR5TlZXRHFVS0s4Z25HWWMwMzBBWkRaRCIsInBhZ2UiOnsiaWQiOiIxOTAyNTk0MDc3MzcyMDgiLCJsaWtlZCI6dHJ1ZSwiYWRtaW4iOnRydWV9LCJ1c2VyIjp7ImNvdW50cnkiOiJwbCIsImxvY2FsZSI6ImVuX1VTIiwiYWdlIjp7Im1pbiI6MjF9fSwidXNlcl9pZCI6IjEwMDAwMjM2NDEyNTgzMyJ9"}
+WARNING: Can't verify CSRF token authenticity
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+true
+[{"name"=>"PageA", "category"=>"Community", "id"=>"142723355839336", "created_time"=>"2012-01-02T20:27:04+0000"}]
+Rendered like/create.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 1656ms
+
+ActionView::Template::Error (undefined method `>' for #<Koala::Facebook::GraphCollection:0xaa084e4>):
+    1: <%=  @like_page ? "You like this page" : "You must like this page" %><br/>
+    2: <%=  (@like_page_a>0) ? "You like page A" : "You don't like page A" %>
+  app/views/like/create.html.erb:2:in `_app_views_like_create_html_erb___694158632_85016750'
+  app/controllers/like_controller.rb:28:in `create'
+
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.9ms)
+
+
+Started POST "/like" for 127.0.0.1 at 2012-01-03 14:57:15 +0100
+  Processing by LikeController#create as HTML
+  Parameters: {"signed_request"=>"gYF4zzETMWjqgXsadGrx2BUXodv9DdQ6JT-c7iip81s.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImV4cGlyZXMiOjAsImlzc3VlZF9hdCI6MTMyNTU5OTAzMiwib2F1dGhfdG9rZW4iOiJBQUFDek1DeFcyM3dCQUhQcnF6eVlCbFpBYUluUW5HWHU5VlZ1RW84RGlyWGR3RUlWVWpsWkN1bEJjVUdQTjMxcHNJWkFWZE5wOXRkS2x5cWY0cjhZckR5TlZXRHFVS0s4Z25HWWMwMzBBWkRaRCIsInBhZ2UiOnsiaWQiOiIxOTAyNTk0MDc3MzcyMDgiLCJsaWtlZCI6dHJ1ZSwiYWRtaW4iOnRydWV9LCJ1c2VyIjp7ImNvdW50cnkiOiJwbCIsImxvY2FsZSI6ImVuX1VTIiwiYWdlIjp7Im1pbiI6MjF9fSwidXNlcl9pZCI6IjEwMDAwMjM2NDEyNTgzMyJ9"}
+WARNING: Can't verify CSRF token authenticity
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+true
+[{"name"=>"PageA", "category"=>"Community", "id"=>"142723355839336", "created_time"=>"2012-01-02T20:27:04+0000"}]
+Rendered like/create.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 986ms
+
+ActionView::Template::Error (undefined method `>' for #<Koala::Facebook::GraphCollection:0xb293ce4>):
+    1: <%=  @like_page ? "You like this page" : "You must like this page" %><br/>
+    2: <%=  (@like_page_a>0) ? "You like page A" : "You don't like page A" %>
+  app/views/like/create.html.erb:2:in `_app_views_like_create_html_erb___694158632_85016750'
+  app/controllers/like_controller.rb:28:in `create'
+
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /home/mszczerbowska/.rvm/gems/ruby-1.9.3-rc1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.4ms)
+
+
+Started POST "/like" for 127.0.0.1 at 2012-01-03 14:57:26 +0100
+  Processing by LikeController#create as HTML
+  Parameters: {"signed_request"=>"q_3ahGk-YhLgHDzz7gIcLD6W7sGcrT_5FutnRwvyGSQ.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImV4cGlyZXMiOjAsImlzc3VlZF9hdCI6MTMyNTU5OTA0NSwib2F1dGhfdG9rZW4iOiJBQUFDek1DeFcyM3dCQUhQcnF6eVlCbFpBYUluUW5HWHU5VlZ1RW84RGlyWGR3RUlWVWpsWkN1bEJjVUdQTjMxcHNJWkFWZE5wOXRkS2x5cWY0cjhZckR5TlZXRHFVS0s4Z25HWWMwMzBBWkRaRCIsInBhZ2UiOnsiaWQiOiIxOTAyNTk0MDc3MzcyMDgiLCJsaWtlZCI6dHJ1ZSwiYWRtaW4iOnRydWV9LCJ1c2VyIjp7ImNvdW50cnkiOiJwbCIsImxvY2FsZSI6ImVuX1VTIiwiYWdlIjp7Im1pbiI6MjF9fSwidXNlcl9pZCI6IjEwMDAwMjM2NDEyNTgzMyJ9"}
+WARNING: Can't verify CSRF token authenticity
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+true
+1
+Rendered like/create.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1052ms (Views: 27.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-03 14:57:28 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-01-03 14:57:28 +0100
+Served asset /main.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/like.css?body=1" for 127.0.0.1 at 2012-01-03 14:57:28 +0100
+Served asset /like.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/like.js?body=1" for 127.0.0.1 at 2012-01-03 14:57:28 +0100
+Served asset /like.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-03 14:57:28 +0100
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/search.css?body=1" for 127.0.0.1 at 2012-01-03 14:57:28 +0100
+Served asset /search.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-03 14:57:28 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/main.js?body=1" for 127.0.0.1 at 2012-01-03 14:57:28 +0100
+Served asset /main.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2012-01-03 14:57:28 +0100
+Served asset /search.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-03 14:57:28 +0100
+Served asset /application.js - 304 Not Modified (0ms)
