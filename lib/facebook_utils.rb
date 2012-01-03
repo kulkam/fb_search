@@ -19,11 +19,11 @@ class FacebookUtils
     end
     
     def user_id(token)
-      Koala::Facebook::GraphAPI.new(token).get_object("me")["id"]
+      Koala::Facebook::API.new(token).get_object("me")["id"]
     end
     
     def user_like_page(token, page_id) 
-      Koala::Facebook::GraphAPI.new(token).get_connections("me", "likes/#{page_id}")
+      Koala::Facebook::API.new(token).get_connections("me", "likes/#{page_id}")
     end  
     
     def login_url(back_url)
